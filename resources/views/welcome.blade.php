@@ -9,15 +9,16 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand fs-4 fw-bold">Tagoloan Community College</a>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+                <a class="navbar-brand" href="javascript:void(0)">
+                    <img src="/img/logo.png" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-          </nav>
+        </nav>
     </header>
     <div class="section-login">
         <div class="container d-flex justify-content-center align-items-center mt-5">
@@ -30,37 +31,40 @@
                 <div class="col md-6 right-box">
                     <div class="row align-items-center">
                         <div class="header-text mb-2 fs-3 fw-bold">
-                            <p class="text-center mt-3">Welcome Student</p>
+                            <p class="text-center mt-2">Welcome Student</p>
                         </div>
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-2">
                             <input type="text" class="form-control from-control-lg bg-light fs-6" placeholder="Username">
                         </div>
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-2">
                             <input type="password" class="form-control from-control-lg bg-light fs-6" placeholder="Password">
                         </div>
-                        <div class="input-group mb-3 d-flex justify-content-between">
-                            <div class="form-check">
-                                <div class="remember">
-                                    <input type="checkbox" class="form-check-input" id="formCheck">
-                                    <label for="formcheck" class="form-check-label text-secondary mb-4">Remember Me</label>
-                                </div>
-                                <div class="forgot">
-                                    <small><a href="#" class="text-secondary mt-1">Forgot Password</a></small>
+                        <div class="input-group mb-2">
+                            <input type="password" class="form-control from-control-lg bg-light fs-6 mb-1" placeholder="Verify Password">
+                        </div>
+                        <div class="input-group mb-1 d-flex justify-content-between">
+                            <div class="input-group mb-3 d-flex justify-content-between">
+                                <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="formCheck">
+                                        <label for="formCheck" class="form-check-label text-secondary">Remember Me</label>
+                                    </div>
+                                    <div class="forgot">
+                                        <small><a href="#" class="text-secondary">Forgot Password</a></small>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                             <div class="input-group mb-1">
                                 <button class="btn btn-lg btn btn-success fs-5 w-100 fw-bold">LOGIN</button>
                             </div>
+                            <div class=" mb-2">
+                                <p class="text-center mt-3"><small>Not yet Registered?</small></p>
+                            </div>
+                            <div class="enroll">
+                                <p class="text-center fs-4 fw-bold"><a href="/registration" class="text-warning">Click Here!</a></p>
+                            </div>
                         </div>
-                        <div class="Registration">
-                            <p class="text-center mt-1"><small>Not yet Registered?</small></p>
                         </div>
-                        <div class="Registraiton-form text-center mb-2">
-                            <small><a href="/registration" class="text-warning fs-5 fw-bold">Click Here!</a></small>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
