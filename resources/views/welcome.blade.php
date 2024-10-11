@@ -64,7 +64,8 @@
                                 <p class="text-center fs-4 fw-bold"><a href="/registration" class="text-warning">Click Here!</a></p>
                             </div>
                         </div>
-                        </div>
+                        <br>
+                    </div>
             </div>
         </div>
     </div>

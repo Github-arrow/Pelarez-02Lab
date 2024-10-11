@@ -12,7 +12,7 @@ return new class extends Migration
     public function up()
     {
         schema::table('users',function($table){
-            $table->string('fullname')->nullable;
+            $table->string('fullname')->nullable();
         });
     }
 
@@ -22,7 +22,7 @@ return new class extends Migration
     public function down()
     {
         schema::table('users',function($table){
-            $table->dropcolumn('fullname');
+            $table->dropcolumn('fullname')->nullable();
         });
     }
 };
